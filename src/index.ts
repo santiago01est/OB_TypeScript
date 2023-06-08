@@ -6,10 +6,10 @@ console.log("Santiago");
 var nombre: string="Santiago";
 console.log("Hello, "+ nombre);
 console.log("¿Qué tal , ",nombre,"?");
-console.log('¿Cómo han ido las vacaciones, ${nombre} ?');
+console.log(`¿Cómo han ido las vacaciones, ${nombre} ?`);
 
 let email="santiago01est@gmail.com"; // variable de tipo local
-console.log('El email de ${nombre} es ${email}');
+console.log(`El email de ${nombre} es ${email}`);
 
 const PI: number= 3.1416;
 
